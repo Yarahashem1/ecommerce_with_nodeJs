@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors')
 const port = 9000
 
-mongoose.connect('mongodb+srv://abedallasbeata:l4cENYvwTlZ0GO8U@cluster0.t2n5jw1.mongodb.net/ecommerce?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://yaramadi2001:yara@cluster0.jayoav5.mongodb.net/ecommerce?retryWrites=true&w=majority', {
   useNewUrlParser: true,
 })
 .then(() => {
