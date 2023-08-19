@@ -11,7 +11,7 @@ module.exports = {
                     id: res.id,
                     name: res.name,
                     price: res.price,
-                    desc: res.desc,
+                    description: res.description,
                 }
             })
         })
@@ -20,7 +20,7 @@ module.exports = {
        const product = await new PRODUCTS({
             name: req.body.name,
             price: req.body.price,
-            desc: req.body.desc
+            description: req.body.description
        }).save()
        
        res.json({"message:" : "inserted successfully", id : product.id, name : product.name})
